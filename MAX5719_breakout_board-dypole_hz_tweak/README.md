@@ -6,3 +6,6 @@ Tested up to 20MHz SPI on a breadboard, good layout of microcontroller to breako
 Onboard 5 V voltage reference, output is then scaled up by 2.0x for a 10V range.
 
 JP1 is for unipolar output. JP2/3 for bipolar.
+
+We chose Op Amp OP2192. Voltage reference chip MAX6126 (which has a demo schematic for MAX5719). The exact voltages on board should be +13.2, -13.2 and +5.376 V.
+
