@@ -1,4 +1,4 @@
-Teensy MAX5719 high-resolution (low-speed) AWG.
+Teensy MAX5719 high-resolution (low-speed) AWG v1 in dypole.
 
 Interface is via SPI, all microcontroller signals are isolated using MAX14850ASE (or compatible) capacitive isolator. A galvanically isolated power supply may be used to provide the +/-15V DAC/analog buffer supply, so microcontroller USB does not need to be isolated.
 Tested up to 20MHz SPI on a breadboard, good layout of microcontroller to breakout board PCB may allow for higher speeds (MAX5719 is specified up to 50MHz).
@@ -9,3 +9,4 @@ JP1 is for unipolar output. JP2/3 for bipolar.
 
 We chose Op Amp OP2192. Voltage reference chip MAX6126 (which has a demo schematic for MAX5719). The exact voltages on board should be +13.2, -13.2 and +5.376 V.
 
+Production (purchased at JLCPCB) on Sep 9th 2025.
