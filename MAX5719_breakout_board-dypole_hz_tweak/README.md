@@ -11,7 +11,7 @@ We chose Op Amp OP2192. Voltage reference chip MAX6126 (which has a demo schemat
 
 Production (purchased at JLCPCB) on Sep 9th 2025. This version has 3 problems. 
 
-First, the zero resistors are not soldered. The voltage divider for ADP7118 5 V is wrong.
+First, the zero resistors are not soldered. The voltage divider (resistor) for ADP7118 5 V is wrong.
 
 Second, the +13.2 V and -13.2 V fight each other. Negative prevents positive voltage from turning on. This might be the safe feature of ADP7118. After taking away the OP2192, the problem is gone.
 
