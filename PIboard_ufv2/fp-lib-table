@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PIDLibrary")(type "KiCad")(uri "${KIPRJMOD}/PIDLibrary.pretty")(options "")(descr ""))
+)
